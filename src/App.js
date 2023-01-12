@@ -14,7 +14,6 @@ function App() {
 				<Route path="/listCard" element={<CardUI />} />
 				<Route path="/list" element={<List />} />
 				<Route path="/view" element={<View />} />
-				{/* <Route path="/apiData" element={<ApiFilm />} /> */}
 			</Routes>
 		</div>
 	);

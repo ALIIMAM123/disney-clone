@@ -80,33 +80,12 @@ function Card() {
 											{each.title}
 										</span>
 									</div>
-									{/* OPENING-CRAWL */}
-									{/* <div className="title-container common-container">
-										<span className="titleKey common-key">opening_crawl</span>
-										<span className="titleValue common-value opening_crawl">
-											{each.opening_crawl}
-										</span>
-									</div> */}
 								</div>
 							</div>
 						))
 					) : (
-						// <h1 className="loader-spinner">Please Wait </h1>
 						<LoaderSpinner />
 					)}
-				</div>
-			</div>
-			{/* Disney + original */}
-			<h1 className="recommended-heading">Disney + Originals</h1>
-			<div className="card-wrapper-container">
-				<div className="card-container-inner">
-					{DUMMY_DATA.map((each) => (
-						<div className="card-wrapper-container" key={each.id}>
-							{/* first img */}
-							<img src={each.image} className="imageurL " alt="imageUrl" />
-							{/* second img */}
-						</div>
-					))}
 				</div>
 			</div>
 		</div>

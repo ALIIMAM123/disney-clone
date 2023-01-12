@@ -10,12 +10,12 @@
 }
 
 .initial-card-wrapper {
-	width: 95%;
+	width: 100%;
 	background-color: rgb(100, 4, 4);
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .main__card {
